@@ -41,7 +41,9 @@ section.nefaq p
 {
   margin: 0;
 }
-
+footer p{
+  font-size: 16px;
+}
 section.cofr , 
 section.sherk, 
 section.nefaq 
@@ -139,31 +141,31 @@ section.nefaq{
   font-size: 17px;
   box-shadow:  2px 2px 11px 1px rgba(0,0,0,.1);
 }
-.orange{
-  color: #ec9646;
-  font-weight: bold;
-}
+   .orange{
+    color: #ec9646;
+    font-weight: bold;
+  }
 
- .green{
-  color: #0D758B;
-  font-weight: bold;
-}
-section h1 .green{
-  color: #0D758B;
-  font-weight: bold;
-}
-section h1 .red{
-  color: #da443f;
-  font-weight: bold;
-}
-section h1 .orange{
-  color: #ec9646;
-  font-weight: bold;
-}
- .red{
-  color: #da443f;
-  font-weight: bold;
-}
+   .green{
+    color: #0D758B;
+    font-weight: bold;
+  }
+  section h1 .green{
+    color: #0D758B;
+    font-weight: bold;
+  }
+  section h1 .red{
+    color: #da443f;
+    font-weight: bold;
+  }
+  section h1 .orange{
+    color: #ec9646;
+    font-weight: bold;
+  }
+   .red{
+    color: #da443f;
+    font-weight: bold;
+  }
 .navbar .logo {
   text-decoration: none;
   font-weight: bold;
@@ -372,7 +374,7 @@ nav li a {
   text-decoration: none;
   display: block;
   padding: .5em;
-  font-size: 1.3em;
+  font-size: 16px;
   text-align: right;
 }
 
@@ -395,15 +397,33 @@ nav li a:hover {
     font-size: 16px;
 
   }
+
+  .left-col h1{
+    font-size: 1.2rem;
+  }
+  blockquote {
+    font-size: 16px;
+    margin: 0;
+  }
+cite {
+  font-size: 16px;
+}
+.testimonials-section li img{
+  width: 3.5em;
+  height: 3.5em;
+  border: 7px solid whitesmoke;
+  border-radius: 50%;
+  margin-top: -4em;
+}
   section#COFR.cofr li, 
   section#SHERK.sherk li, 
   section#NEFAQ.nefaq li{
-    font-size: 1rem;
+    font-size: 16px;
   }
   section#COFR.cofr p, 
   section#SHERK.sherk p, 
   section#NEFAQ.nefaq p{
-    font-size: 1rem;
+    font-size: 16px;
   }
   ul.features-list li{
     font-size: 16px;
@@ -411,6 +431,10 @@ nav li a:hover {
     margin-right: 2em;
     position: relative;
   }
+  section#ANA {
+    padding-top: 2em;
+    font-size: 16px;
+}
 }
 @media only screen and (min-width: 400px) {
 
