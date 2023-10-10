@@ -5,7 +5,7 @@ const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 let currentQuestion = {};
 let acceptingAnswers = false;
-let score = 0;
+let score = 1;
 let questionCounter = 0;
 let availableQuesions = [];
 
@@ -284,7 +284,7 @@ const MAX_QUESTIONS = 33;
 
 startGame = () => {
   questionCounter = 0;
-  score = 0;
+  score = 1;
   availableQuesions = [...questions];
   getNewQuestion();
 };
