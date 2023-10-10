@@ -170,4 +170,14 @@ h1#imaCool{
 h1#imaCool{
   margin-bottom: 0rem;
 }
+    .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 9em auto;
+  padding: 2rem;
+}
 }
