@@ -145,6 +145,16 @@ input::placeholder {
 h1#imaCool{
   margin-bottom: 0rem;
 }
+  .container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 4em auto;
+  padding: 2rem;
+}
 }
 @media only screen and (min-width: 760px) {
   h2 {
