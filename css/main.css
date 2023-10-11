@@ -552,6 +552,7 @@ cite {
   }
   #features-section img {
     display: block;
+    border:9px dotted white;
     position: absolute;
     left: 0;
     width: 350px;
