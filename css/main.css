@@ -13,7 +13,7 @@ section.cofr p,
 section.sherk p, 
 section.nefaq p
 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 footer{
@@ -33,7 +33,7 @@ section.cofr li,
 section.sherk li, 
 section.nefaq li
 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 section.cofr p, 
 section.sherk p, 
@@ -42,7 +42,7 @@ section.nefaq p
   margin: 0;
 }
 footer p{
-  font-size: 16px;
+  font-size: 14px;
 }
 section.cofr , 
 section.sherk, 
@@ -114,21 +114,21 @@ section.nefaq{
 .sherk table th{
   background-color: #ec9646;  
   color: whitesmoke;
-  font-size: 1.3em;
+  font-size: 1rem;
 
 }
 
 .cofr table th{
   background-color: #da443f;  
   color: whitesmoke;
-  font-size: 1.3em;
+  font-size: 1rem;
 
 }
 
 .nefaq table th{
   background-color: #0D758B;
   color: whitesmoke;
-  font-size: 1.3em;
+  font-size: 1rem;
 
 }
 
@@ -170,7 +170,7 @@ section.nefaq{
   text-decoration: none;
   font-weight: bold;
   color: black;
-  font-size: 1.2em;
+  font-size: 1rem;
 }
 
 .navbar .logo span {
@@ -228,7 +228,7 @@ section {
   color: white;
   text-decoration: none;
   padding: .6em 1.3em;
-  font-size: 0.8em;
+  font-size: 1rem;
   border-radius: 5em;
   font-weight: bold;
   display: inline-block;
@@ -263,7 +263,7 @@ ul.features-list {
 }
 
 ul.features-list li {
-  font-size: 1.1em;
+  font-size: 1rem;
   margin-bottom: 1em;
   margin-right: 2em;
   position: relative;
@@ -308,7 +308,7 @@ ul.features-list li:before {
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1rem;
 }
 
 section#ANA{
@@ -317,7 +317,7 @@ section#ANA{
 
 label {
   display: block;
-  font-size: 1.2em;
+  font-size: 1rem;
   margin-bottom: .5em;
 }
 
@@ -335,7 +335,7 @@ input[type="submit"] {
   background-color: var(--primary-color);
   color: white;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1rem;
   border: none;
   margin-bottom: 5em;
   border-radius: 5em;
@@ -399,7 +399,7 @@ nav li a:hover {
   }
 
   .left-col h1{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   blockquote {
     font-size: 16px;
@@ -490,7 +490,7 @@ cite {
     color: white;
   }
   ul.features-list li{
-    font-size: 18px;
+    font-size: 1rem;
   }
 }
 
@@ -539,7 +539,7 @@ cite {
   ul.features-list {
     display: block;
     margin-right: 5em;
-    font-size: 13px;
+    font-size: 1rem;
 
   }
 
