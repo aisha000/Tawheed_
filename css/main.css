@@ -2,7 +2,9 @@
 :root {
   --primary-color: #49a4ff;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: #F2F2F2;
   margin: 0;
